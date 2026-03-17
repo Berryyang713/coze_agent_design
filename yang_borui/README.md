@@ -15,7 +15,7 @@
 请访问：[(3006)公共API Token](https://wiki.berryyang.com/zh/sisukurse/nachrichten/archiv/3006)
 
 ## cURL
-`
+```
 curl --location --request POST "https://4ypzgb5hb3.coze.site/stream_run" \
   --header "Authorization: Bearer <YOUR_TOKEN>" \
   --header "Content-Type: application/json" \
@@ -36,10 +36,10 @@ curl --location --request POST "https://4ypzgb5hb3.coze.site/stream_run" \
       "session_id":"SJ6UJmAsrP-n4wg46uB9N",
       "project_id": 7618079515360935979
     }'
-`
+```
 
 ## Python
-`
+```
 import json
 import requests
 url = "https://4ypzgb5hb3.coze.site/stream_run"
@@ -80,10 +80,10 @@ for line in response.iter_lines(decode_unicode=True):
       print(json.dumps(parsed, ensure_ascii=False, indent=2))
     except Exception:
       print(data_text)
-`
+```
 
 ## NodeJS
-`
+```
 
 async function main() {
   const url = "https://4ypzgb5hb3.coze.site/stream_run";
@@ -136,4 +136,4 @@ async function main() {
 main().catch(err => {
   console.error(err);
 });
-`
+```
