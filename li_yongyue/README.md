@@ -1,12 +1,11 @@
-# 项目结构说明
+# 实例地址
+[Coze商店](https://www.coze.cn/s/dTkH5hu0ELU/)
 
-# 本地运行
-## 运行流程
-bash scripts/local_run.sh -m flow
+# 实例简介
+“德语小助手”智能体功能介绍：
+1. 可以帮助记忆德语单词（发送带有“图片”两字的文字给智能体后，智能体可以进行回答。如发送“苹果图片”给智能体，智能体将进行对应回答）
+2. 批改作文并给出修改建议。（当用户发送给智能体带有“评分”二字的文字的时候，智能体可对用户给出的作文内容进行评分以及给出相应修改建议）
+3. 当用户发送给智能体其他常规德语问题时，智能体也会进行相应回答。（比如用户询问歌德作品有哪些等）
+4. 智能体暂时无法帮助用户直接生成可供下载的PPT文件、Word文件等。
 
-## 运行节点
-bash scripts/local_run.sh -m node -n node_name
-
-# 启动HTTP服务
-bash scripts/http_run.sh -m http -p 5000
-
+Von Li Yongyue hochgeladen
